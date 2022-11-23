@@ -29,17 +29,11 @@ return {
   -- Reopen files at last edit position
   ["ethanholz/nvim-lastplace"] = {
     event = "BufRead",
-    config = function()
-      require("nvim-lastplace").setup()
-    end,
+    config = function() require("nvim-lastplace").setup() end,
   },
 
   -- Distraction-free coding
   ["folke/zen-mode.nvim"] = {
-    -- cmd = "ZenMode",
-    -- module = "zen-mode",
-    config = function()
-      require("zen-mode").setup(require "user.plugins.zen-mode")
-    end,
+    config = function() require("user.plugins.zen-mode") end,
   },
 }

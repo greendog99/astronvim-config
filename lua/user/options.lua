@@ -15,6 +15,7 @@ return {
     list = true, -- show whitespace characters
     listchars = { tab = " ", extends = "⟩", precedes = "⟨", trail = "·", eol = "﬋" },
     showbreak = "﬌ ",
+    undofile = false, -- persistent undo (after quit)
   },
 
   g = {
@@ -26,5 +27,7 @@ return {
     status_diagnostics_enabled = true, -- diagnostics in statusline
     icons_enabled = true, -- icons in the UI (disable if no nerd font is available)
     ui_notifications_enabled = true, -- notifications when toggling UI elements
+
+    gh_color = "soft", -- slightly less dark background for vim-github-dark theme
   },
 }

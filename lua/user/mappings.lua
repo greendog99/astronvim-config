@@ -22,11 +22,16 @@ return {
     ["˙"] = { function() require("smart-splits").resize_left() end, desc = "Resize split left" },
     ["¬"] = { function() require("smart-splits").resize_right() end, desc = "Resize split right" },
 
-    ["<leader>Z"] = { "<cmd>ZenMode<cr>", desc = "Zen Mode" },
+    -- Zen mode
+    ["<leader>Zf"] = { "<cmd>TZFocus<cr>", desc = "True-Zen Focus" },
+    ["<leader>Za"] = { "<cmd>TZAtaraxis<cr>", desc = "True-Zen Ataraxis" },
 
     -- Undo some AstroNvim mappings
     ["<C-q>"] = false,
     ["<C-s>"] = false,
+  },
+  v = {
+    ["<leader>Zn"] = { ":'<,'>TZNarrow<cr>", desc = "True-Zen Narrow" },
   },
   t = {
   },

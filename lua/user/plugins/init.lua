@@ -33,11 +33,6 @@ return {
   },
 
   -- Distraction-free coding
-  -- ["folke/zen-mode.nvim"] = {
-  --   config = function() require("user.plugins.zen-mode") end,
-  -- },
-
-  -- Distraction-free coding
   ["Pocco81/true-zen.nvim"] = {
     config = function() require("user.plugins.true-zen") end,
   },

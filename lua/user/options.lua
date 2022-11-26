@@ -7,6 +7,7 @@ return {
     spell = false, -- sets vim.opt.spell
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = true, -- wrap long lines
+    expandtab = true,
     conceallevel = 2, -- enable conceal
     foldenable = false,
     foldexpr = "nvim_treesitter#foldexpr()", -- Treesitter based folding

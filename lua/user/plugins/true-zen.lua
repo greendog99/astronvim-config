@@ -1,4 +1,4 @@
-local api = vim.api
+-- Option overrides for TrueZen mode
 
 require("true-zen").setup {
   modes = {

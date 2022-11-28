@@ -33,6 +33,4 @@ return {
   v = {
     ["<leader>Zn"] = { ":'<,'>TZNarrow<cr>", desc = "True-Zen Narrow" },
   },
-  t = {
-  },
 }

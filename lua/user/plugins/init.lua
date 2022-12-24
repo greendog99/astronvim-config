@@ -9,7 +9,7 @@ return {
   ["wojciechkepka/vim-github-dark"] = {},
 
   -- other plugins:
-  ["yuttie/comfortable-motion.vim"] = {}, -- smooth scrolling
+  -- ["yuttie/comfortable-motion.vim"] = {}, -- smooth scrolling
   ["fladson/vim-kitty"] = {}, -- kitty config syntax highlighting
 
   -- Edit surround characters like "'({[]})'"
@@ -36,4 +36,10 @@ return {
   ["Pocco81/true-zen.nvim"] = {
     config = function() require("user.plugins.true-zen") end,
   },
+
+  -- Telescope clipboard (yank) history
+  -- ["AckslD/nvim-neoclip.lua"] = {
+  --   after = "telescope.nvim",
+  --   config = function() require("telescope").load_extension "neoclip" end,
+  -- }
 }

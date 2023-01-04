@@ -13,6 +13,7 @@ return {
     foldenable = false,
     foldexpr = "nvim_treesitter#foldexpr()", -- Treesitter based folding
     foldmethod = "expr",
+    guifont = { "Rec Mono Casual", ":h14" }, -- for Neovide or other gui editors
     linebreak = true, -- soft wrap at words
     list = true, -- show whitespace characters
     listchars = { tab = " ", extends = "⟩", precedes = "⟨", trail = "·", eol = "﬋" },
